@@ -1,6 +1,6 @@
-import datetime import datetime
-current_year = datetime.now().year
+from datetime import datetime
+current_datetime = datetime.now().year
 birth_year = input()
-age_now = int(current_year) - int(birth_year)
+age_now = int(current_datetime) - int(birth_year)
 
 print(age_now)
