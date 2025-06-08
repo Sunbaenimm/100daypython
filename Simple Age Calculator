@@ -1,0 +1,14 @@
+#my simple age calculator
+#using input() and datetime module
+
+--
+from datetime import datetime
+
+current_year = datetime.now().year
+birth_year = input()
+
+age_now = int(current_year) - int(birth_year)
+print(age_now)
+
+--
+#simple code.
