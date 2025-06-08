@@ -1,16 +1,15 @@
 #my simple age calculator
 #using input() and datetime module
+#simple code.
+#ln10: imported class datetime
+#ln11: current_year: 2025
+#ln12: birthyear: user input(1992)
+#ln13: computation: 2025-1992
+#ln15: age_now: 33
 
-from datetime import datetime
+import datetime import datetime
 current_year = datetime.now().year
 birth_year = input()
 age_now = int(current_year) - int(birth_year)
 
 print(age_now)
-
-#simple code.
-#ln4: imported class datetime
-#ln5: current_year: 2025
-#ln6: birthyear: user input(1992)
-#ln7: computation: 2025-1992
-#ln9: age_now: 33
